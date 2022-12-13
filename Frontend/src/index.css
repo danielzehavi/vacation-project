@@ -1,0 +1,35 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  font-size: large;
+  overflow: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: large;
+}
+
+a {
+  color: blue;
+}
+
+.Box {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  text-align: left;
+}
+
+.Box > p {
+  margin: 0;
+}

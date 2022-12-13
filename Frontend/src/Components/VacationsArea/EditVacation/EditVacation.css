@@ -1,0 +1,29 @@
+.EditVacation > form {
+  max-width: 250px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid rgb(130, 130, 130);
+  margin: auto;
+  border-radius: 10px;
+}
+
+.EditVacation > h2 {
+  text-align: center;
+}
+
+.EditVacation {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.EditVacation input,
+.EditVacation textarea,
+.EditVacation button {
+  width: 100%;
+  box-sizing: border-box; /* Make buttons and inputs same size */
+  margin-bottom: 20px;
+}

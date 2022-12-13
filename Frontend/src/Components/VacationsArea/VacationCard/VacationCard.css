@@ -1,0 +1,17 @@
+.VacationCard {
+  height: 13%;
+}
+.VacationCard img {
+  height: 250px;
+}
+
+.VacationCard main {
+  overflow: auto;
+  height: 4rem;
+}
+
+@media screen and (width <= 500px) {
+  #cardStyle {
+    width: auto;
+  }
+}

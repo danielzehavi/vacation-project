@@ -1,0 +1,24 @@
+.Login > form {
+  width: 200px;
+}
+
+.Login > h2 {
+  text-align: center;
+}
+
+.Login {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.Login input,
+.Login textarea,
+.Login button {
+  width: 100%;
+  box-sizing: border-box; /* Make buttons and inputs same size */
+  margin-bottom: 20px;
+}
